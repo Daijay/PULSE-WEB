@@ -1,18 +1,18 @@
-
+﻿
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>P.U.L.S.E. — The Fundamental Forces of the Universe</title>
-<meta name="description" content="P.U.L.S.E. — Particle, Unification, Laws, Solar, Electromagnetic. An interactive journey through the four fundamental forces. Science 10 Honors.">
+<title>P.U.L.S.E. | The Fundamental Forces of the Universe</title>
+<meta name="description" content="P.U.L.S.E. | Particle, Unification, Laws, Solar, Electromagnetic. An interactive journey through the four fundamental forces. Science 10 Honors.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
 /* ============================================================
-   P.U.L.S.E. — Design System
+   P.U.L.S.E. Design System
    ============================================================ */
 :root{
   --bg0:#030308;
@@ -176,7 +176,7 @@ h1 .w{display:inline-block;opacity:0;transform:translateY(.55em);filter:blur(6px
 @keyframes drip{0%{transform:scaleY(0);transform-origin:top}45%{transform:scaleY(1);transform-origin:top}55%{transform:scaleY(1);transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
 
 /* ============================================================
-   SCALE — zoom journey
+   SCALE: zoom journey
    ============================================================ */
 .scale-track{position:relative;margin-top:70px}
 .scale-track::before{content:'';position:absolute;left:clamp(17px,2.4vw,23px);top:8px;bottom:8px;width:1px;
@@ -193,7 +193,7 @@ h1 .w{display:inline-block;opacity:0;transform:translateY(.55em);filter:blur(6px
 .srow p b{color:var(--ink);font-weight:500}
 
 /* ============================================================
-   FRAMEWORK — five pillars
+   FRAMEWORK: five pillars
    ============================================================ */
 .pillars{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:60px}
 .pillar{position:relative;padding:30px 24px 26px;background:var(--panel);
@@ -212,7 +212,7 @@ h1 .w{display:inline-block;opacity:0;transform:translateY(.55em);filter:blur(6px
 .pillar li::before{content:'·';position:absolute;left:2px;color:var(--teal);font-weight:700}
 
 /* ============================================================
-   LAWS — strength bars + carriers
+   LAWS: strength bars + carriers
    ============================================================ */
 .bars{margin-top:64px;display:flex;flex-direction:column;gap:30px}
 .bar-row{display:grid;grid-template-columns:minmax(130px,230px) 1fr minmax(86px,130px);
@@ -243,7 +243,7 @@ h1 .w{display:inline-block;opacity:0;transform:translateY(.55em);filter:blur(6px
 .crow .role{color:var(--muted)}
 
 /* ============================================================
-   GRAVITY — Newton vs Einstein
+   GRAVITY: Newton vs Einstein
    ============================================================ */
 .duel{display:grid;grid-template-columns:1fr auto 1fr;gap:clamp(18px,3.4vw,40px);margin-top:64px;align-items:stretch}
 .duel-col{padding:34px 28px;border-radius:12px;background:var(--panel);border:1px solid var(--panel-line)}
@@ -280,7 +280,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
   font-size:.74rem;letter-spacing:.38em;color:var(--gold);text-transform:uppercase}
 
 /* ============================================================
-   EM — spectrum
+   EM: spectrum
    ============================================================ */
 .spectrum{margin-top:64px}
 .spec-bar{display:grid;grid-template-columns:repeat(7,1fr);gap:4px;height:120px}
@@ -306,7 +306,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
   padding:8px 14px;border-radius:4px;backdrop-filter:blur(6px)}
 
 /* ============================================================
-   STRONG — nucleus + asymptotic freedom
+   STRONG: nucleus + asymptotic freedom
    ============================================================ */
 #strong .stat-hero{display:flex;align-items:baseline;gap:18px;margin-top:50px;flex-wrap:wrap}
 .stat-hero .num{font-family:var(--font-mono);font-weight:500;
@@ -358,7 +358,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
   font-size:.64rem;letter-spacing:.18em;color:var(--faint);margin-top:16px;text-transform:uppercase}
 
 /* ============================================================
-   WEAK — supernova / beta decay
+   WEAK: supernova / beta decay
    ============================================================ */
 #weak-bg{position:relative;max-width:none;padding:0}
 .weak-hero{position:relative;min-height:54vh;display:flex;align-items:flex-end;overflow:hidden}
@@ -397,7 +397,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 .wz-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:16px;margin-top:54px}
 
 /* ============================================================
-   SOLAR — chain + quebec
+   SOLAR: chain + quebec
    ============================================================ */
 #solar-bg{position:relative;max-width:none;padding:0}
 .solar-hero{position:relative;min-height:54vh;display:flex;align-items:flex-end;overflow:hidden}
@@ -483,7 +483,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 .ba li b{color:var(--ink);font-weight:500;display:block;font-size:.92rem}
 
 /* ============================================================
-   DEEPER — iceberg
+   DEEPER: iceberg
    ============================================================ */
 .iceberg{margin-top:64px;position:relative;border-radius:14px;overflow:hidden;border:1px solid var(--panel-line)}
 .berg-above{padding:46px 36px 34px;background:linear-gradient(to bottom,rgba(20,216,196,.1),rgba(20,216,196,.03))}
@@ -634,12 +634,12 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 <section id="scale">
   <div class="eyebrow rv">Origin · Everything at every scale</div>
   <h2 class="rv" style="--d:.1s">Four invisible forces govern<br>every layer of reality</h2>
-  <p class="lede rv" style="--d:.2s">From the largest structures ever observed to the smallest things that exist — zoom in far enough, and the same four forces are running everything.</p>
+  <p class="lede rv" style="--d:.2s">From the largest structures ever observed to the smallest things that exist; zoom in far enough, and the same four forces are running everything.</p>
 
   <div class="scale-track">
     <div class="srow rv-l"><span class="dot"></span>
       <div class="lvl">Universe<small>10²⁶ m</small></div>
-      <p><b>Gravity</b> shapes the large-scale structure of the cosmos — galaxy clusters, filaments, voids.</p>
+      <p><b>Gravity</b> shapes the large-scale structure of the cosmos: galaxy clusters, filaments, voids.</p>
     </div>
     <div class="srow rv-l" style="--d:.08s"><span class="dot"></span>
       <div class="lvl">Galaxy<small>10²¹ m</small></div>
@@ -647,11 +647,11 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     </div>
     <div class="srow rv-l" style="--d:.16s"><span class="dot"></span>
       <div class="lvl">Star<small>10⁹ m</small></div>
-      <p><b>Nuclear fusion</b> powers every star — a battle between gravity crushing inward and pressure pushing out.</p>
+      <p><b>Nuclear fusion</b> powers every star; a battle between gravity crushing inward and pressure pushing out.</p>
     </div>
     <div class="srow rv-l" style="--d:.24s"><span class="dot"></span>
       <div class="lvl">Atom<small>10⁻¹⁰ m</small></div>
-      <p>The <b>electromagnetic force</b> holds electrons in orbit — and makes chemistry, and you, possible.</p>
+      <p>The <b>electromagnetic force</b> holds electrons in orbit and makes chemistry, and you, possible.</p>
     </div>
     <div class="srow rv-l" style="--d:.32s"><span class="dot"></span>
       <div class="lvl">Nucleus<small>10⁻¹⁴ m</small></div>
@@ -693,7 +693,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 <section id="laws">
   <div class="eyebrow rv"><span class="sec-letter">L</span> Laws · The four forces</div>
   <h2 class="rv" style="--d:.1s">Four forces, wildly unequal</h2>
-  <p class="lede rv" style="--d:.2s">Relative strength, plotted on a logarithmic scale — every step rightward is another power of ten. Gravity, the force that holds galaxies together, doesn't even register.</p>
+  <p class="lede rv" style="--d:.2s">Relative strength, plotted on a logarithmic scale; every step rightward is another power of ten. Gravity, the force that holds galaxies together, doesn't even register.</p>
 
   <div class="bars rv" style="--d:.25s" id="barsBlock">
     <div class="bar-row">
@@ -739,8 +739,8 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
       <div class="era">Newton · 1687</div>
       <h3>A force at a distance</h3>
       <div class="pt"><b>Universal pull between masses</b><p>Proportional to mass, inverse square of distance. Every object attracts every other.</p></div>
-      <div class="pt"><b>It worked — for 200 years</b><p>Explained planetary orbits, tides, falling apples. The most successful theory of its era.</p></div>
-      <div class="pt"><b>The limit</b><p>Could not explain Mercury's orbit — or what gravity fundamentally <i>is</i>.</p></div>
+      <div class="pt"><b>It worked for 200 years</b><p>Explained planetary orbits, tides, falling apples. The most successful theory of its era.</p></div>
+      <div class="pt"><b>The limit</b><p>Could not explain Mercury's orbit or what gravity fundamentally <i>is</i>.</p></div>
     </div>
     <div class="vs rv-sc" style="--d:.2s">VS</div>
     <div class="duel-col einstein rv-r">
@@ -748,7 +748,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
       <h3>The curvature of spacetime</h3>
       <div class="pt"><b>Not a force, but geometry</b><p>Mass bends spacetime. Objects follow geodesics through the curve.</p></div>
       <div class="pt"><b>Gravitational lensing</b><p>Light bends near massive objects. Confirmed by Arthur Eddington's eclipse expedition, 1919.</p></div>
-      <div class="pt"><b>Gravitational waves</b><p>Spacetime ripples from merging black holes — detected by LIGO, September 14, 2015.</p></div>
+      <div class="pt"><b>Gravitational waves</b><p>Spacetime ripples from merging black holes; detected by LIGO, September 14, 2015.</p></div>
     </div>
   </div>
 
@@ -763,7 +763,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     </figure>
   </div>
 
-  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL — solar system · orbits follow the curve (Lucas &amp; Naureen)</div>
+  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL: solar system · orbits follow the curve (Lucas &amp; Naureen)</div>
 </section>
 
 <!-- ================= 6 · QUOTE ================= -->
@@ -771,7 +771,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
   <div>
     <div class="quote-mark rv">"</div>
     <blockquote class="rv" style="--d:.15s">The most incomprehensible thing about the universe is that it is comprehensible.</blockquote>
-    <cite class="rv" style="--d:.3s">— Albert Einstein</cite>
+    <cite class="rv" style="--d:.3s">Albert Einstein</cite>
   </div>
 </section>
 
@@ -797,7 +797,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 
   <div class="em-cards">
     <div class="em-card rv"><h4>Maxwell · 1865</h4>
-      <p>Unified electricity and magnetism through four equations — and out of the math fell the <b style="color:var(--ink)">speed of light</b>. The foundation of all modern physics.</p></div>
+      <p>Unified electricity and magnetism through four equations, and out of the math fell the <b style="color:var(--ink)">speed of light</b>. The foundation of all modern physics.</p></div>
     <div class="em-card rv" style="--d:.1s"><h4>The quantum leap</h4>
       <div class="big">E = hf</div>
       <p>Energy of EM radiation is proportional to frequency. Planck constant h = 6.626 × 10⁻³⁴ J·s. This single equation launched quantum mechanics.</p></div>
@@ -807,21 +807,21 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 
   <div class="aurora-strip rv" style="--d:.15s">
     <img src="images/aurora.jpg" alt="Aurora borealis over mountains" loading="lazy">
-    <div class="tag">AURORA — charged solar particles colliding with our atmosphere</div>
+    <div class="tag">Aurora: charged solar particles colliding with our atmosphere</div>
   </div>
 
-  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL — the same EM force lights the solar system model</div>
+  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL: the same EM force lights the solar system model</div>
 </section>
 
 <!-- ================= 8 · STRONG ================= -->
 <section id="strong">
   <div class="eyebrow rv"><span class="sec-letter">L</span> Laws · Force III</div>
-  <h2 class="rv" style="--d:.1s">The strong nuclear force — <span class="accent-s">the engine of every star.</span></h2>
+  <h2 class="rv" style="--d:.1s">The strong nuclear force, <span class="accent-s">the engine of every star.</span></h2>
   <p class="lede rv" style="--d:.2s">The most powerful force in nature, locked inside a range smaller than a single atom.</p>
 
   <div class="stat-hero rv" style="--d:.2s">
     <div class="num">10<sup id="strongCount" data-count="38">0</sup></div>
-    <div class="lbl">times stronger than gravity — at one hundred-trillionth the range</div>
+    <div class="lbl">times stronger than gravity; at one hundred-trillionth the range</div>
   </div>
 
   <div class="strong-grid">
@@ -833,7 +833,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
         </div>
       </div>
       <div class="body"><h4>Quarks &amp; gluons</h4>
-        <p>Mediated by <b>gluons</b>. Quarks carry colour charge — red, green, blue — described by <b>quantum chromodynamics (QCD)</b>. No quark has ever been found in isolation.</p></div>
+        <p>Mediated by <b>gluons</b>. Quarks carry colour charge (red, green, blue) described by <b>quantum chromodynamics (QCD)</b>. No quark has ever been found in isolation.</p></div>
     </div>
     <div class="scard rv" style="--d:.1s">
       <img src="images/collision.jpg" alt="Particle collision" loading="lazy">
@@ -849,7 +849,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 
   <div class="af-stage rv" style="--d:.15s">
     <div class="af-title">Asymptotic freedom</div>
-    <div class="af-sub">The strong force behaves backwards: it is <b style="color:var(--ink)">weaker</b> when quarks are close, and <b style="color:var(--ink)">stronger</b> the further you pull them apart — like an unbreakable elastic band. Nobel Prize in Physics, 2004.</div>
+    <div class="af-sub">The strong force behaves backwards: it is <b style="color:var(--ink)">weaker</b> when quarks are close, and <b style="color:var(--ink)">stronger</b> the further you pull them apart, like an unbreakable elastic band. Nobel Prize in Physics, 2004.</div>
     <div class="af-anim">
       <div class="af-q l"></div>
       <div class="af-tube"></div>
@@ -858,7 +858,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     <div class="af-cap"><span>quarks close → force relaxes</span><span>pulled apart → force fights back</span></div>
   </div>
 
-  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL — take the nucleus apart (Naureen)</div>
+  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL: take the nucleus apart (Naureen)</div>
 </section>
 
 <!-- ================= 9 · WEAK ================= -->
@@ -868,27 +868,27 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     <div class="shade"></div>
     <div class="wrap">
       <div class="eyebrow rv"><span class="sec-letter">L</span> Laws · Force IV</div>
-      <h2 class="rv" style="--d:.1s">The weak force — <span class="accent-w">the alchemist.</span></h2>
-      <p class="lede rv" style="--d:.2s">The only force that changes matter itself — and the forge of every heavy element in existence.</p>
+      <h2 class="rv" style="--d:.1s">The weak force, <span class="accent-w">the alchemist.</span></h2>
+      <p class="lede rv" style="--d:.2s">The only force that changes matter itself, and the forge of every heavy element in existence.</p>
     </div>
   </div>
   <div class="wrap weak-body">
     <div class="wz-grid">
       <div class="em-card rv"><h4 style="color:var(--c-weak)">Massive carriers</h4>
         <div class="big">80 &amp; 91 GeV/c²</div>
-        <p>The W and Z bosons are extremely heavy — which limits the force to a range of <b style="color:var(--ink)">10⁻¹⁸ m</b>, a thousand times smaller than a proton. Despite the name, it's far stronger than gravity.</p></div>
+        <p>The W and Z bosons are extremely heavy, which limits the force to a range of <b style="color:var(--ink)">10⁻¹⁸ m</b>, a thousand times smaller than a proton. Despite the name, it's far stronger than gravity.</p></div>
       <div class="em-card rv" style="--d:.1s"><h4 style="color:var(--c-weak)">Flavour change</h4>
-        <p>The only force in nature that <b style="color:var(--ink)">changes the flavour of a quark</b> — converting neutrons into protons. This enables radioactive decay and drives the Sun's proton–proton chain.</p></div>
+        <p>The only force in nature that <b style="color:var(--ink)">changes the flavour of a quark</b>, converting neutrons into protons. This enables radioactive decay and drives the Sun's proton–proton chain.</p></div>
     </div>
 
     <div class="beta-stage rv" style="--d:.1s">
-      <div class="af-title" style="color:var(--c-weak)">Beta decay — live</div>
+      <div class="af-title" style="color:var(--c-weak)">Beta Decay Live</div>
       <div class="beta-anim">
         <div class="bn-core"></div>
         <div class="b-out e">e⁻</div>
         <div class="b-out v">ν̄</div>
       </div>
-      <div class="beta-eq">n&ensp;→&ensp;p&ensp;+&ensp;<b>e⁻</b>&ensp;+&ensp;<b>ν̄ₑ</b>&ensp;&ensp;// a neutron becomes a proton — matter transformed</div>
+      <div class="beta-eq">n&ensp;→&ensp;p&ensp;+&ensp;<b>e⁻</b>&ensp;+&ensp;<b>ν̄ₑ</b>&ensp;&ensp;// a neutron becomes a proton; matter transformed</div>
     </div>
 
     <div class="elements rv" style="--d:.15s">
@@ -907,7 +907,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     <div class="shade"></div>
     <div class="wrap">
       <div class="eyebrow rv"><span class="sec-letter">S</span> Solar · The case study</div>
-      <h2 class="rv" style="--d:.1s">The Sun's magnetic field — <span class="accent-o">where the forces collide.</span></h2>
+      <h2 class="rv" style="--d:.1s">The Sun's magnetic field, <span class="accent-o">where the forces collide.</span></h2>
       <p class="lede rv" style="--d:.2s">Nuclear forces power the Sun. Electromagnetism shapes everything that comes out of it.</p>
     </div>
   </div>
@@ -917,12 +917,12 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
       <div class="chx" style="--cd:.45s"><div class="ic">↻</div><h4>Differential Rotation</h4><p>Equator spins faster than poles</p></div>
       <div class="chx" style="--cd:.9s"><div class="ic">✕</div><h4>Magnetic Reconnection</h4><p>Field lines snap and reconnect</p></div>
       <div class="chx" style="--cd:1.35s"><div class="ic">⚡</div><h4>Flares &amp; CMEs</h4><p>Billions of tons of plasma launched</p></div>
-      <div class="chx" style="--cd:1.8s"><div class="ic">⊕</div><h4>Earth Effects</h4><p>Auroras — and blackouts</p></div>
+      <div class="chx" style="--cd:1.8s"><div class="ic">⊕</div><h4>Earth Effects</h4><p>Auroras and blackouts</p></div>
     </div>
 
     <div class="solar-cols">
       <div class="solar-txt">
-        <div class="pt rv-l"><b>Solar dynamo</b><p>Plasma flows driven by nuclear fusion heat generate the Sun's magnetic field. Differential rotation stretches and amplifies field lines continuously — the Sun's equator laps its poles.</p></div>
+        <div class="pt rv-l"><b>Solar dynamo</b><p>Plasma flows driven by nuclear fusion heat generate the Sun's magnetic field. Differential rotation stretches and amplifies field lines continuously; the Sun's equator laps its poles.</p></div>
         <div class="pt rv-l" style="--d:.1s"><b>Magnetic reconnection</b><p>Oppositely directed field lines break and violently reconnect, converting magnetic energy directly into kinetic energy and heat. This is the primary driver of solar flares.</p></div>
         <div class="pt rv-l" style="--d:.2s"><b>Coronal mass ejections</b><p>The largest eruptions hurl billions of tons of magnetized plasma into space at millions of km/h. When one is aimed at Earth, it slams into our magnetosphere.</p></div>
       </div>
@@ -934,8 +934,8 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     <div class="quebec rv" style="--d:.1s">
       <div class="sig">⚠ Geomagnetic storm</div>
       <div>
-        <h3>March 1989 — Québec goes dark.</h3>
-        <p>A coronal mass ejection struck Earth's magnetosphere, inducing electrical currents in the ground that collapsed Hydro-Québec's power grid in 92 seconds. This is not theoretical — it is the exact scenario shown above.</p>
+        <h3>March 1989: Québec goes dark.</h3>
+        <p>A coronal mass ejection struck Earth's magnetosphere, inducing electrical currents in the ground that collapsed Hydro-Québec's power grid in 92 seconds. This is not theoretical; it is the exact scenario shown above.</p>
         <div class="qstats">
           <div class="qstat"><b data-num="6">0</b><small>Million people</small></div>
           <div class="qstat"><b data-num="9">0</b><small>Hours without power</small></div>
@@ -949,7 +949,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
 <!-- ================= 11 · UNIFICATION ================= -->
 <section id="unification">
   <div class="eyebrow rv"><span class="sec-letter">U</span> Unification · The deeper truth</div>
-  <h2 class="rv" style="--d:.1s">Four forces — <span class="accent-u">or one?</span></h2>
+  <h2 class="rv" style="--d:.1s">Four forces <span class="accent-u">or one?</span></h2>
   <p class="lede rv" style="--d:.2s">The deepest discovery of modern physics: forces that look completely different are manifestations of the same underlying thing.</p>
 
   <div class="merge-stage rv" style="--d:.15s">
@@ -963,16 +963,16 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
       <div class="tag">Before</div>
       <ul>
         <li><b>Four disconnected forces</b>No unifying framework. Each force completely separate.</li>
-        <li><b>Mass unexplained</b>The Standard Model predicted massless W and Z bosons — contradicting observation.</li>
+        <li><b>Mass unexplained</b>The Standard Model predicted massless W and Z bosons, contradicting observation.</li>
         <li><b>Gravity stood alone</b>Relativity and quantum mechanics could not be reconciled.</li>
       </ul>
     </div>
     <div class="ba after rv-r">
       <div class="tag">After</div>
       <ul>
-        <li><b>Electroweak unification — 1970s</b>Glashow, Salam and Weinberg proved electromagnetism and the weak force are one electroweak force.</li>
-        <li><b>Higgs boson — 2012</b>CERN's Large Hadron Collider confirmed particles acquire mass through the Higgs field.</li>
-        <li><b>Gravitational waves — 2015</b>LIGO detected spacetime ripples, confirming Einstein's century-old prediction.</li>
+        <li><b>Electroweak unification, 1970s</b>Glashow, Salam and Weinberg proved electromagnetism and the weak force are one electroweak force.</li>
+        <li><b>Higgs boson, 2012</b>CERN's Large Hadron Collider confirmed particles acquire mass through the Higgs field.</li>
+        <li><b>Gravitational waves, 2015</b>LIGO detected spacetime ripples, confirming Einstein's century-old prediction.</li>
       </ul>
     </div>
   </div>
@@ -981,8 +981,8 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     <div class="ucard rv">
       <div class="yr">JULY 4 · 2012</div>
       <img src="images/lhc.jpg" alt="CMS detector at the Large Hadron Collider" loading="lazy">
-      <div class="body"><h4>The Higgs boson — CERN</h4>
-        <p>The Large Hadron Collider confirmed the particle that completes the Standard Model — the field that gives everything its mass.</p></div>
+      <div class="body"><h4>The Higgs Boson at CERN</h4>
+        <p>The Large Hadron Collider confirmed the particle that completes the Standard Model, the field that gives everything its mass.</p></div>
     </div>
     <div class="ucard ligo-card rv" style="--d:.12s">
       <div class="yr">SEPT 14 · 2015</div>
@@ -990,23 +990,23 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
         <img src="images/ligo.jpg" alt="LIGO observatory aerial view" loading="lazy">
         <div class="ripple"></div><div class="ripple"></div><div class="ripple"></div>
       </div>
-      <div class="body"><h4>Gravitational waves — LIGO</h4>
-        <p>Two black holes merged 1.3 billion years ago. The ripple crossed the universe and stretched these 4 km arms by less than a proton's width — and we caught it.</p></div>
+      <div class="body"><h4>Gravitational Waves at LIGO</h4>
+        <p>Two black holes merged 1.3 billion years ago. The ripple crossed the universe and stretched these 4 km arms by less than a proton's width, and we caught it.</p></div>
     </div>
   </div>
 
-  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL — the paper ball · four forces collapsing into one</div>
+  <div class="cue rv" style="--d:.2s">PHYSICAL MODEL: the paper ball · four forces collapsing into one</div>
 </section>
 
 <!-- ================= 12 · DEEPER (ICEBERG) ================= -->
 <section id="deeper">
   <div class="eyebrow rv"><span class="sec-letter">U</span> Unification · The frontier</div>
   <h2 class="rv" style="--d:.1s">How deep does it go?</h2>
-  <p class="lede rv" style="--d:.2s">Everything humanity has confirmed sits above the waterline. Below it — the questions physics is still reaching for.</p>
+  <p class="lede rv" style="--d:.2s">Everything humanity has confirmed sits above the waterline. Below it, the questions physics is still reaching for.</p>
 
   <div class="iceberg rv" style="--d:.15s">
     <div class="berg-above">
-      <div class="berg-tag">Above the waterline — confirmed</div>
+      <div class="berg-tag">Above the waterline (confirmed)</div>
       <div class="berg-items">
         <div class="bi"><b>Four forces</b><p>All confirmed experimentally</p></div>
         <div class="bi"><b>Standard Model</b><p>17 particles, three forces unified</p></div>
@@ -1016,7 +1016,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     </div>
     <div class="waterline"><span>Current human knowledge</span></div>
     <div class="berg-below">
-      <div class="berg-tag">Below the waterline — still reaching</div>
+      <div class="berg-tag">Below the waterline (still reaching</div>
       <div class="berg-items">
         <div class="bi"><b>Grand Unified Theory</b><p>Electroweak + strong nuclear</p></div>
         <div class="bi"><b>Quantum gravity</b><p>Relativity meets quantum mechanics</p></div>
@@ -1026,7 +1026,7 @@ cite{display:block;margin-top:28px;font-family:var(--font-mono);font-style:norma
     </div>
   </div>
 
-  <p class="deep-line rv" style="--d:.2s">The deeper we look, the more unified the universe becomes —<br><b>but the final answer remains beyond our reach.</b></p>
+  <p class="deep-line rv" style="--d:.2s">The deeper we look, the more unified the universe becomes ,<br><b>but the final answer remains beyond our reach.</b></p>
 </section>
 
 <!-- ================= 13 · CLOSE ================= -->
@@ -1082,7 +1082,7 @@ function finishPreloader(){
 }
 if (document.readyState === 'complete') finishPreloader();
 else window.addEventListener('load', finishPreloader);
-setTimeout(finishPreloader, 4200); // hard cap — never trap the user
+setTimeout(finishPreloader, 4200); // safety timeout trap the user
 
 /* ============ STARFIELD (3-layer parallax, perf-capped) ============ */
 var canvas = document.getElementById('stars');
@@ -1328,3 +1328,7 @@ document.addEventListener('keydown', function(ev){
 </script>
 </body>
 </html>
+
+
+
+
